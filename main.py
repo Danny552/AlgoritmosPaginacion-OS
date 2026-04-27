@@ -167,6 +167,7 @@ def main(page: ft.Page):
         ft.Row([
             ref_input, 
             ft.FilledButton("Óptimo", icon="play_arrow", on_click=lambda _: simulate("Optimal")), 
+            ft.FilledButton("FIFO", icon="play_arrow", on_click=lambda _: simulate("FIFO")),
             ft.FilledButton("FIFO mejorado", icon="play_arrow", on_click=lambda _: simulate("SC")),
             ft.FilledButton("LRU", icon="play_arrow", on_click=lambda _: simulate("LRU"))
         ]),

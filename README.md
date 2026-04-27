@@ -8,8 +8,9 @@ El simulador permite ejecutar y visualizar paso a paso cómo se gestionan los ma
 
 ### Algoritmos Implementados:
 1.  **Óptimo:** Reemplaza la página que no se utilizará durante el periodo de tiempo más largo en el futuro. (Utilizado como benchmark teórico).
-2.  **FIFO Mejorado (Segunda Oportunidad):** Una variante de FIFO que utiliza un bit de referencia para dar una "segunda oportunidad" a las páginas que han sido accedidas recientemente antes de ser reemplazadas.
-3.  **LRU (Least Recently Used):** Reemplaza la página que no ha sido utilizada por el tiempo más largo en el pasado.
+2.  **FIFO:** (First-In, First-Out) La primera página al entrar es la primera página en salir.
+3.  **FIFO Mejorado (Segunda Oportunidad):** Una variante de FIFO que utiliza un bit de referencia para dar una "segunda oportunidad" a las páginas que han sido accedidas recientemente antes de ser reemplazadas.
+4.  **LRU (Least Recently Used):** Reemplaza la página que no ha sido utilizada por el tiempo más largo en el pasado.
 
 ## Interfaz Visual
 
